@@ -1,0 +1,71 @@
+# Main project configuration
+project:
+  type: website
+  output-dir: _site # Folder where the built website will be placed
+
+# Website specific configuration
+website:
+  title: "Van Tuan Bui | Personal Site & Blog" # Appears in browser tabs and potentially headers
+  navbar:
+    # Makes the navbar background light and text dark
+    background: light
+    back-to-top-navigation: true
+    # Pushes nav items to the right (optional, remove 'right:' for left alignment)
+    right:
+      - href: index.qmd # Link to home page file
+        text: Home     # Text displayed in the navbar
+      - href: about.qmd
+        text: About
+      - href: experience.qmd
+        text: Experience
+      - href: publications.qmd
+        text: Publications
+      - href: projects.qmd
+        text: Projects
+      - href: posts.qmd # Link to the blog listing page
+        text: Blog
+      - href: contact.qmd
+        text: Contact
+      # Optional: Add icons (requires FontAwesome or Bootstrap Icons)
+      # - icon: github
+      #   href: https://github.com/yourusername
+      # - icon: twitter
+      #   href: https://twitter.com/yourusername
+    
+
+  # Footer configuration
+  page-footer:
+    center: "© Copyright 2025, Van Tuan Bui. Built with [Quarto](https://quarto.org/)."
+    right:
+      - text: '<a href="#" id="back-to-top">↑ Back to Top</a>'
+      # - text: "Back to top"
+      #   href: "#top"
+    left: 
+      - icon: github
+        href: https://github.com/
+      - icon: twitter 
+        href: https://twitter.com/
+
+# Default HTML format options (applies to all pages unless overridden)
+format:
+  html:
+    theme: cosmo # A clean theme. Others: litera, flatly, journal, yeti, zephyr... Experiment!
+    css: styles.css
+    toc: true # Add table of contents to pages where relevant
+    # # --- Add this section to include our custom JS ---
+    # include-after-body:
+    #   - scripts/back-to-top.js
+    # Enable features common in Distill
+    code-fold: true # Allow users to fold code blocks
+    code-summary: "Show/Hide Code"
+    link-external-icon: true
+    link-external-newwindow: true
+    # If you plan to use citations from a .bib file
+    bibliography: references.bib # Uncomment and create this file if needed
+
+# Blog specific configuration (will be used by posts.qmd)
+# Ensure you have a 'posts' directory for your blog posts
+# The configuration for the blog listing page itself goes in the posts.qmd front matter (see below)
+
+execute:
+  freeze: auto # Recommended setting for caching computations if you use code

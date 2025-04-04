@@ -1,0 +1,61 @@
+---
+title: "Experience"
+# Optional: Add a subtitle if desired
+# subtitle: "My Professional Journey and Education"
+---
+
+A summary of my professional roles and educational background. I thrive on tackling challenging problems and continuously learning new skills.
+
+## Professional Experience
+
+### NLP Research Engineer | Fondation des Sciences du Patrimoine (FSP) | Apr 2024 – Apr 2025
+
+*   Extracted named entities (metadata, paradata) from unstructured cultural heritage analysis data using LLMs, Prompting, and RAG to ensure provenance and traceability.
+*   Optimized named entity extraction through the implementation of **LLM reasoning techniques** (Chain-of-Thought, internal reasoning).
+*   Fine‑tuned **Whisper models with LoRA** on cultural heritage audio data, enhancing transcription accuracy of domain‑specific named entities by
+5%.
+*   Linked extracted entities to Opentheso and ORCID knowledge bases, strengthening data accessibility and traceability.
+*   Partnered with heritage science experts (documentalists, conservators, restorers) to create training and evaluation datasets.
+
+### Data Science Research Engineer | Centre national de la recherche scientifique (CNRS) | Feb 2023 – Feb 2024
+
+*   Automated the release of new versions of the PARSEME corpora across **26 languages via GitLab CI/CD**, considerably reducing publication times.
+*   Designed and implemented new modules for quality control of linguistic corpora.
+*   Unified and integrated PARSEME’s disparate tools, increasing **operational efficiency by 50%**.
+*   Enhanced French multiword expression identification F1-score by 10% leveraging **CamemBERT and FlauBERT models**.
+*   Built an inference pipeline on lab clusters to identify multiword expressions in a large 21GB corpus.
+
+### Deep Learning Intern | Capgemini Engineering | Mar 2022 – Aug 2022
+
+*   Designed and implemented a lightweight, efficient CNN for avionics protocol recognition using Tensorflow, achieving aerospace‑standard **$10$ms latency and error
+rate below $10^{-5}$**.
+*   Collaborated with simulation team to enhance protocol recognition through data collection, analysis and production testing.
+*   Orchestrated the deployment of the recognition model on **AWS Cloud and Raspberry Pi 4** using TensorFlow Lite, ensuring optimal performance.
+*   Developed and launched an intuitive, interactive dashboard using Dear PyGui for real‑time monitoring of model performance in production.
+*   Developed substitution models using Transformer for dynamic systems.
+
+### Artificial Intelligence Intern | OLGHAM | Apr 2021 – Aug 2021
+
+*   Programmed Scannol, an AI‑based auditing tool using **expert systems** to detect anomalies in C/C++ code.
+*   Tracked down and identified efficiently functional errors in each of the **4 source codes analyzed**.
+*   Adopted and mastered the demanding DO‑178C development standards.
+
+## Education
+
+### M.S. in Computer Science and Computer Security | INSA Centre Val de Loire | 2017 – 2022
+
+*   **Project:** *Fused question and image attention to optimize visual question answering (VQA) using deep learning techniques.*
+
+## Skills
+
+*   **Programming:** Python, C/C++, Java, JavaScript, R, HTML
+*   **Machine Learning:** Tensorflow, PyTorch, Hugging Face, Scikit‑learn, LlamaIndex, OpenCV, spaCy, Kubeflow, Spark, Slurm
+*   **Database:** SQL, NoSQL, PostgreSQL, Oracle
+*   **Exploratory Data Analysis:** Seaborn, Matplotlib
+*   **Cloud Computing:** Docker, Kubernetes, AWS, GCP
+*   **Software Development:** Git, Jira, Agile, Anaconda, Visual Studio, Django, FastAPI, Jenkins, CI/CD, Bash
+
+<!-- Add other relevant sections if applicable, like: -->
+<!-- ## Teaching Experience -->
+<!-- ## Volunteering -->
+<!-- ## Awards and Honors -->

@@ -1,0 +1,85 @@
+/* styles.css */
+
+/* Style for the publication entries */
+.publication-entry {
+    margin-bottom: 2.5em; /* Space between publication entries */
+    padding-bottom: 1.5em; /* Space below text before next entry */
+    border-bottom: 1px solid #eee; /* Subtle separator line */
+  }
+  
+  /* Ensure last entry doesn't have extra space or border */
+  .publication-entry:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  
+  /* Container for the publication image */
+  .pub-image-container {
+    text-align: center; /* Center image within its column */
+    padding-right: 15px; /* Add some space between image and text */
+  }
+  
+  /* Style for the publication images */
+  .pub-img {
+    max-width: 100%; /* Make image responsive */
+    height: auto;
+    border: 1px solid #ccc; /* The requested outline */
+    padding: 4px; /* Space between image and border */
+    background-color: #fff; /* White background inside border */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Optional subtle shadow */
+    margin-top: 5px; /* Align top of image roughly with first line of text */
+  }
+  
+  /* Style for the publication details text */
+  .pub-details {
+    line-height: 1.6; /* Improve readability */
+  }
+  
+  .pub-details strong {
+    font-size: 1.1em; /* Make title slightly larger */
+    display: block; /* Put title on its own line */
+    margin-bottom: 0.2em;
+  }
+  
+  .pub-details em { /* Italicized parts - authors and journal */
+    display: block; /* Put authors/journal on separate lines */
+    margin-bottom: 0.5em;
+    color: #555; /* Slightly dimmer text color */
+  }
+  
+  .pub-details a {
+   /* Optional: style links if needed */
+  }
+  
+  /* Adjustments for smaller screens if needed */
+  @media (max-width: 768px) {
+    .pub-image-container {
+      /* On smaller screens, maybe image takes full width or more space */
+       /* Example: make image column smaller or text column larger if needed */
+       text-align: left; /* Align left on small screens */
+       margin-bottom: 10px; /* Add space below image */
+    }
+    /* You might need to adjust g-col spans for smaller screens if using complex grid */
+  }
+  
+  /* --- End of Publication Styles --- */
+  
+  /* --- Add styles for Back to Top link --- */
+
+#back-to-top {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the default footer text color */
+    margin-left: 15px; /* Add some space to its left if needed */
+    /* font-size: 0.9em; */ /* Optional: make it slightly smaller */
+  }
+  
+  #back-to-top:hover {
+    text-decoration: underline; /* Add underline on hover for clarity */
+    /* color: #0056b3; */ /* Optional: change color on hover */
+  }
+  
+  /* Optional: Adjust footer alignment if needed */
+  .page-footer .navbar-nav-scroll {
+    align-items: center; /* Vertically align footer items if they wrap */
+  }

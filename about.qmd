@@ -1,0 +1,21 @@
+---
+title: "About Me"
+image: ./profile.jpg # Optional: Add a profile picture (place image file in the root)
+about:
+  template: jolla # Or trestles, solana, marquee - different layouts for bio
+  image-shape: round # or square
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/yourusername
+    - icon: github
+      text: Github
+      href: https://github.com/yourusername
+    - icon: envelope
+      text: Email
+      href: mailto:your.email@example.com
+---
+
+Accomplished Machine Learning Engineer with a strong record of designing, building, and deploying machine learning models at FSP and CNRS.
+Skilled in data science, advanced programming, and problem‑solving, I’m passionate about unlocking the potential of data to solve real‑world
+problems and create value. With a deep commitment to innovation, I bring proven technical skills and a results‑oriented mindset to every project.

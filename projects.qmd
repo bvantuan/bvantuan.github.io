@@ -1,0 +1,14 @@
+---
+title: "Projects"
+listing:
+  contents: projects # Tells Quarto to list content from the 'projects' folder
+  sort: "date desc" # Sort by date, newest first
+  type: grid # Display as cards (other options: default, table)
+  categories: true # Show categories for filtering
+  sort-ui: true # Show sorting dropdown
+  filter-ui: true # Show filter controls
+page-layout: full # Use full width for the grid
+title-block-banner: false # Optional: remove banner color behind title
+---
+
+Here are some of the projects I've worked on. Use the filters to explore! You can click on any project card to learn more.

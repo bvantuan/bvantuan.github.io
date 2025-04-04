@@ -1,0 +1,38 @@
+---
+title: "PARSEME: PARSing and Multi-word Expressions"
+description: "The [IC1207 COST Action](https://www.cost.eu/actions/IC1207/), PARSEME, is an interdisciplinary scientific network devoted to the role of multi-word expressions (MWEs) in parsing."
+author: "Van Tuan Bui"
+date: "2025-04-04" # Date of last significant update or creation
+categories: [Multiword Expressions, Transformers, Deep Learning] # Optional tags
+image: 2023-03-17-unidive-group-photo-small.jpg # Optional preview image (place in projects/ or root)
+draft: false # Set to true to hide from listing
+# Add link to repo/demo in the body or here:
+project-links:
+    - name: Gitlab
+    - url: https://gitlab.com/parseme
+---
+
+![](2023-03-17-unidive-group-photo-small.jpg){width="100%"}
+*sourced from [UniDive COST Action CA21167
+](https://unidive.lisn.upsaclay.fr/lib/exe/detail.php?id=start&media=meetings:general_meetings:2023-03-17-unidive-group-photo-small.jpg), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
+
+# PARSEME Corpora
+
+The [PARSEME multilingual corpora](https://gitlab.com/parseme/corpora/-/wikis/home) have been annotated with VMWEs to serve, notably, as both training and testing resources for shared tasks [@savary2017parseme; @ramisch2018edition; @ramisch2020edition]
+, with the aim of enhancing the identification of VMWEs in written content. Presently in version 1.3, the PARSEME corpora encompass 26 languages, including French. Collectively, the corpora comprise $455,629$ sentences, equivalent to 9 million tokens, and $127,498$ VMWEs. Specifically, the French corpus contains $20,961$ sentences, equivalent to $525,842$ tokens, with $5,655$ annotated VMWEs .
+
+The VMWE types are detailed in the annotation guidelines.[^guidelines] The VMWE types annotated specifically for French are as follows:
+
+* IRV (inherently reflexive verbs): e.g. ***s’évanouir*** (lit. ‘to faint oneself’) ‘to faint’
+* LVC.full (light verb constructions in which the verb is semantically totally bleached): e.g. ***faire** une **présentation*** ‘to make a presentation’
+* LVC.cause (light verb constructions in which the verb adds a causative meaning to the noun): e.g. ***donner** le **droit*** ‘to grant the right’
+* VID (verbal idioms ): e.g. ***se faire des idées*** (lit. ‘make oneself ideas’) ‘to imagine something false’
+* MVC (multi-verb constructions): e.g. *ce mot **veut dire** autre chose* (lit. ‘this word wants to mean something else’) ‘this word means something else’
+
+# References
+
+<!-- This div tells Quarto where to render the bibliography for this page -->
+::: {#refs}
+:::
+
+[^guidelines]: https://parsemefr.lis-lab.fr/parseme-st-guidelines/1.3/

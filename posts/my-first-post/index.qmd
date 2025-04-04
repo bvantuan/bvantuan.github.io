@@ -1,0 +1,24 @@
+---
+title: "My First Blog Post"
+author: "Your Name"
+date: "2024-03-15"
+categories: [Introduction, Quarto]
+image: preview.jpg # Optional post image (place in post's folder or root)
+description: "A short summary of the post visible on the listing page."
+draft: false # Set to true to hide from listing while working on it
+# --- Distill-like features enabled via _quarto.yml format settings ---
+---
+
+## Introduction
+
+This is my first post on my new Quarto blog! Quarto makes it easy to create content like this.
+
+## Code Example
+
+You can include code blocks:
+
+```python
+def greet(name):
+  print(f"Hello, {name}!")
+
+greet("World")

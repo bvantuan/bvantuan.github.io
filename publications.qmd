@@ -1,0 +1,64 @@
+---
+title: "Publications"
+page-layout: full  # Add this line
+---
+
+Here's a selection of my publications.
+
+::: {.publication-entry}
+::: {.grid}
+
+::: {.g-col-7 .pub-details}
+**Cross‑type French Multiword Expression Identification with Pre‑trained Masked Language Models**
+Van‑Tuan Bui and Agata Savary (2024)
+*In Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation
+(LREC‑COLING 2024)*, pages 4198–4204, Torino, Italia. ELRA and ICCL.
+[[PDF]](https://aclanthology.org/2024.lrec-main.374.pdf)
+
+*We explore the fine-tuning of several state-of-the-art neural
+transformers for each MWE type. Our experiments demonstrate the advantages of the combined system over
+multi-task approaches or single-task models, addressing the challenges posed by diverse tagsets within the training
+data. Specifically, we evaluated the combined system on a French treebank named Sequoia, which features an
+annotation layer encompassing all syntactic types of French MWEs. With this combined approach, we improved the
+F1-score by approximately 3% on the Sequoia dataset.*
+:::
+
+::: {.g-col-5 .pub-image-container}
+![Results of combining independent models](images/bui-savary-2024-cross.png){.pub-img}
+:::
+
+:::
+:::
+
+::: {.publication-entry}
+::: {.grid}
+
+::: {.g-col-7 .pub-details}
+**Protocol Recognition in Virtual Avionics Network Based on Efficient and Lightweight Convolutional Neural Network**
+M. Kerkech, V. ‑T. Bui, M. Africano, L. Martin and K. Srinivasarengan (2022)
+*IEEE/ACM 26th International Symposium on Distributed Simulation and Real Time Applications (DS‑RT)*, Alès, France, 2022, pp. 9‑16, doi: 10.1109/DS‑RT55542.2022.9932068.
+[[DOI]](https://doi.org/10.1109/DS-RT55542.2022.9932068)
+
+*In this work,
+we present AvioNet, a lightweight, computation-efficient neural
+network for virtual avionics network protocol recognition with
+accuracy and latency levels as required by aerospace systems.
+This method converts each packet into a common gray image,
+and then uses the depthwise separable convolution, pointwise
+group convolution and channel shuffle operations to automatically extract the appropriate spatial features. This reduces the
+computational complexity significantly while maintaining almost
+the same accuracy. This CNN-based classifier is verified on data
+that has non-avionic protocols mixed with avionic simulated
+protocols and is compared with the state-of-the-art methods.
+Experimental results show that the accuracy of the method
+exceeds 99.999% for avionics simulated dataset and outperforms
+other deep learning classifiers. Furthermore, the method provides
+low-latency guarantees that aerospace systems demand.*
+:::
+
+::: {.g-col-5 .pub-image-container}
+![Data acquisition and preprocessing procedures](images/DataPreprocess.png){.pub-img}
+:::
+
+:::
+:::

@@ -1,0 +1,13 @@
+---
+title: "Contact"
+---
+
+## Get In Touch
+
+The best way to reach me is via email or LinkedIn:
+
+*   **Email:** [your.email@example.com](mailto:your.email@example.com)
+*   **LinkedIn:** [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
+*   **GitHub:** [github.com/yourusername](https://github.com/yourusername)
+
+<!-- You could also embed a contact form using a service like Formspree -->

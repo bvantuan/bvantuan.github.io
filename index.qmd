@@ -1,0 +1,9 @@
+---
+title: "Welcome"
+---
+
+## Hello!
+
+Welcome to my personal corner of the web. I'm Tuan, an IA/ML Engineer.
+
+Explore my site to learn more [About Me](about.qmd), my [Experience](experience.qmd), or check out my latest [Blog Posts](posts.qmd).
