@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/PARSEME.html",
+      "/projects/AvioNet.html",
+      "/projects/VQA.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/my-first-post/index.html"
+    ]
+  }
+]

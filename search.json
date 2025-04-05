@@ -1,0 +1,142 @@
+[
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "See my publications below.\n\n\n\nCross‑type French Multiword Expression Identification with Pre‑trained Masked Language Models Van‑Tuan Bui and Agata Savary (2024) In Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC‑COLING 2024), pages 4198–4204, Torino, Italia. ELRA and ICCL. [PDF]\nWe explore the fine-tuning of several state-of-the-art neural transformers for each MWE type. Our experiments demonstrate the advantages of the combined system over multi-task approaches or single-task models, addressing the challenges posed by diverse tagsets within the training data. Specifically, we evaluated the combined system on a French treebank named Sequoia, which features an annotation layer encompassing all syntactic types of French MWEs. With this combined approach, we improved the F1-score by approximately 3% on the Sequoia dataset.\n\n\n\n\n\nResults of combining independent models\n\n\n\n\n\n\n\n\nProtocol Recognition in Virtual Avionics Network Based on Efficient and Lightweight Convolutional Neural Network M. Kerkech, V. ‑T. Bui, M. Africano, L. Martin and K. Srinivasarengan (2022) IEEE/ACM 26th International Symposium on Distributed Simulation and Real Time Applications (DS‑RT), Alès, France, 2022, pp. 9‑16, doi: 10.1109/DS‑RT55542.2022.9932068. [DOI]\nIn this work, we present AvioNet, a lightweight, computation-efficient neural network for virtual avionics network protocol recognition with accuracy and latency levels as required by aerospace systems. This method converts each packet into a common gray image, and then uses the depthwise separable convolution, pointwise group convolution and channel shuffle operations to automatically extract the appropriate spatial features. This reduces the computational complexity significantly while maintaining almost the same accuracy. This CNN-based classifier is verified on data that has non-avionic protocols mixed with avionic simulated protocols and is compared with the state-of-the-art methods. Experimental results show that the accuracy of the method exceeds 99.999% for avionics simulated dataset and outperforms other deep learning classifiers. Furthermore, the method provides low-latency guarantees that aerospace systems demand.\n\n\n\n\n\nData acquisition and preprocessing procedures"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Welcome to my personal corner of the web. I’m Tuan, an IA/ML Engineer.\nExplore my site to learn more About Me, my Experience, or check out my latest Blog Posts."
+  },
+  {
+    "objectID": "index.html#hello",
+    "href": "index.html#hello",
+    "title": "Welcome",
+    "section": "",
+    "text": "Welcome to my personal corner of the web. I’m Tuan, an IA/ML Engineer.\nExplore my site to learn more About Me, my Experience, or check out my latest Blog Posts."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Here are some of the projects I’ve worked on. Use the filters to explore! You can click on any project card to learn more.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPARSEME: PARSing and Multi-word Expressions\n\n\n\nMultiword Expressions\n\n\nTransformers\n\n\nDeep Learning\n\n\n\nThe IC1207 COST Action, PARSEME, is an interdisciplinary scientific network devoted to the role of multi-word expressions (MWEs) in…\n\n\n\nVan Tuan Bui\n\n\nApr 5, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAvioNet: A lightweight, computation-efficient neural network for virtual avionics network protocol recognition\n\n\n\nprotocol recognition\n\n\nCNN\n\n\ninteroperability\n\n\n\nProtocol Recognition in Virtual Avionics Network Based on Efficient and Lightweight Convolutional Neural Network.\n\n\n\nVan Tuan Bui\n\n\nApr 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVisual Question Answering (VQA)\n\n\n\nComputer Vision\n\n\nLSTM\n\n\nCNN\n\n\n\nThis is my end of studies’ project about Visual Question Answering (VQA) as a student in the Information Technology and Cybersecurity Department at…\n\n\n\nVan Tuan Bui\n\n\nApr 3, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome to my blog! Here I write about [Your Topics]. Use the filters to navigate posts by category.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nMy First Blog Post\n\n\n\n\n\n\nIntroduction\n\n\nQuarto\n\n\n\nA short summary of the post visible on the listing page.\n\n\n\n\n\nMar 15, 2024\n\n\nYour Name\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/AvioNet.html",
+    "href": "projects/AvioNet.html",
+    "title": "AvioNet: A lightweight, computation-efficient neural network for virtual avionics network protocol recognition",
+    "section": "",
+    "text": "Overview\nAerospace systems have complex internal interactions which allow a consistent behavior for the overall system. These are aided by communication protocols such as ARINC 629, AFDX, etc. These systems are too expensive and too critical to allow real experimentation, thus requiring extensive use of simulation. Thus an aircraft simulation test bench involves various simulation components with their own communication protocols, complicating its development process. One way to solve this issue consists of recognizing each communication protocol, decoding and encoding it in another protocol within a shared simulation environment. As part of a project to develop an interoperable simulator, we aim to build such a system that can recognize and decode avionics simulated communication protocols. In this work, we present AvioNet (Kerkech et al. 2022), a lightweight, computation-efficient neural network for virtual avionics network protocol recognition with accuracy and latency levels as required by aerospace systems. This method converts each packet into a common gray image, and then uses the depthwise separable convolution, pointwise group convolution and channel shuffle operations to automatically extract the appropriate spatial features. This reduces the computational complexity significantly while maintaining almost the same accuracy. This CNN-based classifier is verified on data that has non-avionic protocols mixed with avionic simulated protocols and is compared with the state-of-the-art methods. Experimental results show that the accuracy of the method exceeds 99.999% for avionics simulated dataset and outperforms other deep learning classifiers. Furthermore, the method provides low-latency guarantees that aerospace systems demand.\n\n\nData Preprocessing\nIn order to extract packets from the captured network traffic data and transform the packet into the standard input, the PCAP files need to be pre-processed through three steps: packet extraction, data conversion and matrix generation.\n\nPacket extraction: select packets that use UDP as transport layer and may be the first fragment if there is IP fragmentation. IP fragmentation can happen when the packet size is bigger than the MTU, so it breaks the packet into smaller pieces (fragments).\nData conversion: We first fix MAC addresses in the data link layer and the IP addresses in the IP layer, which performs traffic anonymization. IPv4 addresses can be assigned 0.0.0.0 and MAC addresses are removed. Then, the deep neural networks require that the input data must be uniform, so only first 784 bytes of each packet are used. The packets with insufficient length will be padded with 0 at the end. This choice is motivated by three reasons. Firstly, the header information of protocol type is covered in the range. Secondly, the first data of UDP payload can reflect the characteristics of the application protocol.\nMatrix generation: decimal value of each byte in a packet is normalized. Each value is divided by 255 so the range of values is [0,1]. Next, we convert 784 elements into a 28x28 two-dimensional matrix.\n\n\n\n\nData acquisition and preprocessing procedures\n\n\n\n\nVisualization Analysis\nExample images of packets of five protocol types are shown below. The resulting images are generated by data preprocess procedure except for the normalization of every byte in a packet.\n\n\n\nData visualization\n\n\n\n\nAvioNet Architecture\nThe AvioNet structure exploits depthwise separable convolution (Sifre and Mallat 2014) as its building unit, which decomposes a standard convolution into a combination of a depthwise convolution and a pointwise convolution replaced by a group convolution and a channel shuffle operation (Zhang et al. 2018) to find a trade-off between accuracy and latency.\n\n\n\nAvioNet Architecture\n\n\n\n\nClassification Performance\nThe results on the test sets of our study are shown below. Four deep learning AvioNet architectures are compared to understand the behaviors of the group number g, and to find the most reliable architecture and score for our application.\n\n\n\nClassification Performance of AvioNet Models\n\n\nFrom the results, we see that the model with group convolution (g = 2) performs better than the counterpart without pointwise group convolutions (g = 1). When group numbers become relatively large (g = 8), the error score increases, because this reduces the number of input channels for each convolutional filter in each group, which in turn diminishes the representation capability. With benefits of low computational cost and optimized Tensorflow Lite models of our architecture, they take only 7ms during inference.\n\n\nReferences\n\n\n\nKerkech, Mohamed, Van-Tuan Bui, Michel Africano, Lise Martin, and Krishnan Srinivasarengan. 2022. “Protocol Recognition in Virtual Avionics Network Based on Efficient and Lightweight Convolutional Neural Network.” In 2022 IEEE/ACM 26th International Symposium on Distributed Simulation and Real Time Applications (DS-RT), 9–16. https://doi.org/10.1109/DS-RT55542.2022.9932068.\n\n\nSifre, Laurent, and Stéphane Mallat. 2014. “Rigid-Motion Scattering for Texture Classification.” arXiv Preprint arXiv:1403.1687.\n\n\nZhang, Xiangyu, Xinyu Zhou, Mengxiao Lin, and Jian Sun. 2018. “Shufflenet: An Extremely Efficient Convolutional Neural Network for Mobile Devices.” In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 6848–56."
+  },
+  {
+    "objectID": "projects/VQA.html",
+    "href": "projects/VQA.html",
+    "title": "Visual Question Answering (VQA)",
+    "section": "",
+    "text": "sourced from Lu et al. (2016).\n\nOverview\nTo correctly answer visual questions about an image, the machine needs to understand both the image and question. A model that can jointly reasons about image and question attention could improve the state-of-the-art on the VQA problem. So I decided to study the paper and experienced this novel mechanism by myself. In this repository only parallel co-attention mechanism which generates image and question attention simultaneously is implemented.\n\n\nArchitecture\n\nSTEP 1: Extract image features from a pre-trained CNN (VGG19 is used here). \nSTEP 2: Compute word embedding, phrase embedding and question embedding\nSTEP 3: Calculate co-attended image and question features from all three levels (word, phrase, question)\nSTEP 4: Use a multi-layer perceptron (MLP) to recursively encode the attention features\n\n\n\nDataset\nI evaluate the proposed model on the VQA 2 dataset. The dataset contains 443 757 training questions, 214 354 validation questions, 447 793 testing questions, and a total of 6 581 110 question-answers pairs. There are three sub-categories according to answer-types including yes/no, number, and other. Each question has 10 free-response answers. The paper uses the top 1000 most frequent answers as the possible outputs. This set of answers covers 87.36% of the train+val answers. For testing, I train the model on VQA train+val and report the test-dev and test-standard results from the VQA evaluation server like in the paper.\n\n\nResults\n\n\n\nModel\nYes/No\nNumber\nOther\nAll\n\n\nVGG\n66.61\n31.39\n33.74\n47.02\n\n\nResNet\n69.08\n34.58\n38.45\n50.73\n\n\n\n\n\nSome prediction answers on the test-standard:\n\n\n\n\n\n\nReferences\n\n\n\nLu, Jiasen, Jianwei Yang, Dhruv Batra, and Devi Parikh. 2016. “Hierarchical Question-Image Co-Attention for Visual Question Answering.” Advances in Neural Information Processing Systems 29."
+  },
+  {
+    "objectID": "projects/PARSEME.html",
+    "href": "projects/PARSEME.html",
+    "title": "PARSEME: PARSing and Multi-word Expressions",
+    "section": "",
+    "text": "sourced from UniDive COST Action CA21167, licensed under CC BY-SA 4.0."
+  },
+  {
+    "objectID": "projects/PARSEME.html#footnotes",
+    "href": "projects/PARSEME.html#footnotes",
+    "title": "PARSEME: PARSing and Multi-word Expressions",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nhttps://parsemefr.lis-lab.fr/parseme-st-guidelines/1.3/↩︎"
+  },
+  {
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "Experience",
+    "section": "",
+    "text": "A summary of my professional roles and educational background. I thrive on tackling challenging problems and continuously learning new skills."
+  },
+  {
+    "objectID": "experience.html#professional-experience",
+    "href": "experience.html#professional-experience",
+    "title": "Experience",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\nNLP Research Engineer | Fondation des Sciences du Patrimoine (FSP) | Apr 2024 – Apr 2025\n\nExtracted named entities (metadata, paradata) from unstructured cultural heritage analysis data using LLMs, Prompting, and RAG to ensure provenance and traceability.\nOptimized named entity extraction through the implementation of LLM reasoning techniques (Chain-of-Thought, internal reasoning).\nFine‑tuned Whisper models with LoRA on cultural heritage audio data, enhancing transcription accuracy of domain‑specific named entities by 5%.\nLinked extracted entities to Opentheso and ORCID knowledge bases, strengthening data accessibility and traceability.\nPartnered with heritage science experts (documentalists, conservators, restorers) to create training and evaluation datasets.\n\n\n\nData Science Research Engineer | Centre national de la recherche scientifique (CNRS) | Feb 2023 – Feb 2024\n\nAutomated the release of new versions of the PARSEME corpora across 26 languages via GitLab CI/CD, considerably reducing publication times.\nDesigned and implemented new modules for quality control of linguistic corpora.\nUnified and integrated PARSEME’s disparate tools, increasing operational efficiency by 50%.\nEnhanced French multiword expression identification F1-score by 10% leveraging CamemBERT and FlauBERT models.\nBuilt an inference pipeline on lab clusters to identify multiword expressions in a large 21GB corpus.\n\n\n\nDeep Learning Intern | Capgemini Engineering | Mar 2022 – Aug 2022\n\nDesigned and implemented a lightweight, efficient CNN for avionics protocol recognition using Tensorflow, achieving aerospace‑standard \\(10\\)ms latency and error rate below \\(10^{-5}\\).\nCollaborated with simulation team to enhance protocol recognition through data collection, analysis and production testing.\nOrchestrated the deployment of the recognition model on AWS Cloud and Raspberry Pi 4 using TensorFlow Lite, ensuring optimal performance.\nDeveloped and launched an intuitive, interactive dashboard using Dear PyGui for real‑time monitoring of model performance in production.\nDeveloped substitution models using Transformer for dynamic systems.\n\n\n\nArtificial Intelligence Intern | OLGHAM | Apr 2021 – Aug 2021\n\nProgrammed Scannol, an AI‑based auditing tool using expert systems to detect anomalies in C/C++ code.\nTracked down and identified efficiently functional errors in each of the 4 source codes analyzed.\nAdopted and mastered the demanding DO‑178C development standards."
+  },
+  {
+    "objectID": "experience.html#education",
+    "href": "experience.html#education",
+    "title": "Experience",
+    "section": "Education",
+    "text": "Education\n\nM.S. in Computer Science and Computer Security | INSA Centre Val de Loire | 2017 – 2022\n\nProject: Fused question and image attention to optimize visual question answering (VQA) using deep learning techniques."
+  },
+  {
+    "objectID": "experience.html#skills",
+    "href": "experience.html#skills",
+    "title": "Experience",
+    "section": "Skills",
+    "text": "Skills\n\nProgramming: Python, C/C++, Java, JavaScript, R, HTML\nMachine Learning: Tensorflow, PyTorch, Hugging Face, Scikit‑learn, LlamaIndex, OpenCV, spaCy, Kubeflow, Spark, Slurm\nDatabase: SQL, NoSQL, PostgreSQL, Oracle\nExploratory Data Analysis: Seaborn, Matplotlib\nCloud Computing: Docker, Kubernetes, AWS, GCP\nSoftware Development: Git, Jira, Agile, Anaconda, Visual Studio, Django, FastAPI, Jenkins, CI/CD, Bash"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m an AI/ML Engineer with a research-oriented mindset and hands-on experience across natural language processing, deep learning, and intelligent systems. Over the past few years, I’ve contributed to impactful projects that bridge cutting-edge machine learning techniques with real-world applications in heritage science, linguistics, aerospace, and software reliability.\nI thrive at the intersection of research and engineering, where experimentation meets execution. My work is driven by curiosity, collaboration, and a desire to create AI systems that are transparent, efficient, and impactful."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I’m always interested in discussing research, potential collaborations, or interesting opportunities. The best way to reach me is via LinkedIn or X:\n\nLinkedIn: van-tuan-bui\nTwitter X: bvttuan\nGitHub: bvantuan\n\n\nPlease feel free to send me a message using the form below."
+  },
+  {
+    "objectID": "contact.html#get-in-touch",
+    "href": "contact.html#get-in-touch",
+    "title": "Contact",
+    "section": "",
+    "text": "I’m always interested in discussing research, potential collaborations, or interesting opportunities. The best way to reach me is via LinkedIn or X:\n\nLinkedIn: van-tuan-bui\nTwitter X: bvttuan\nGitHub: bvantuan\n\n\nPlease feel free to send me a message using the form below."
+  },
+  {
+    "objectID": "contact.html#send-me-a-message",
+    "href": "contact.html#send-me-a-message",
+    "title": "Contact",
+    "section": "Send me a message:",
+    "text": "Send me a message:\n\n\n\n\n  \n    Your Name:\n    \n  \n\n  \n    Your Email:\n    \n    \n  \n\n  \n    Subject:\n    \n    \n  \n\n  \n    Message:\n    \n  \n\n  \n  \n\n  Send Message"
+  },
+  {
+    "objectID": "posts/my-first-post/index.html",
+    "href": "posts/my-first-post/index.html",
+    "title": "My First Blog Post",
+    "section": "",
+    "text": "This is my first post on my new Quarto blog! Quarto makes it easy to create content like this."
+  },
+  {
+    "objectID": "posts/my-first-post/index.html#introduction",
+    "href": "posts/my-first-post/index.html#introduction",
+    "title": "My First Blog Post",
+    "section": "",
+    "text": "This is my first post on my new Quarto blog! Quarto makes it easy to create content like this."
+  },
+  {
+    "objectID": "posts/my-first-post/index.html#code-example",
+    "href": "posts/my-first-post/index.html#code-example",
+    "title": "My First Blog Post",
+    "section": "Code Example",
+    "text": "Code Example\nYou can include code blocks:\n```python def greet(name): print(f”Hello, {name}!“)\ngreet(“World”)"
+  }
+]
