@@ -7,15 +7,18 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com/in/yourusername
+      href: https://www.linkedin.com/in/van-tuan-bui
+    - icon: twitter-x
+      text: Twitter X
+      href: https://x.com/bvttuan
     - icon: github
       text: Github
-      href: https://github.com/yourusername
-    - icon: envelope
-      text: Email
-      href: mailto:your.email@example.com
+      href: https://github.com/bvantuan
 ---
 
-Accomplished Machine Learning Engineer with a strong record of designing, building, and deploying machine learning models at FSP and CNRS.
-Skilled in data science, advanced programming, and problem‑solving, I’m passionate about unlocking the potential of data to solve real‑world
-problems and create value. With a deep commitment to innovation, I bring proven technical skills and a results‑oriented mindset to every project.
+I’m an AI/ML Engineer with a research-oriented mindset and hands-on experience across natural language processing, deep learning, and intelligent systems. 
+Over the past few years, I’ve contributed to impactful projects that bridge cutting-edge machine learning techniques with real-world applications in heritage science, 
+linguistics, aerospace, and software reliability.
+
+I thrive at the intersection of research and engineering, where experimentation meets execution. 
+My work is driven by curiosity, collaboration, and a desire to create AI systems that are transparent, efficient, and impactful.

@@ -3,7 +3,7 @@ title: "Publications"
 page-layout: full  # Add this line
 ---
 
-Here's a selection of my publications.
+See my publications below.
 
 ::: {.publication-entry}
 ::: {.grid}

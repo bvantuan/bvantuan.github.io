@@ -2,14 +2,14 @@
 title: "PARSEME: PARSing and Multi-word Expressions"
 description: "The [IC1207 COST Action](https://www.cost.eu/actions/IC1207/), PARSEME, is an interdisciplinary scientific network devoted to the role of multi-word expressions (MWEs) in parsing."
 author: "Van Tuan Bui"
-date: "2025-04-04" # Date of last significant update or creation
+date: "2025-04-05" # Date of last significant update or creation
 categories: [Multiword Expressions, Transformers, Deep Learning] # Optional tags
 image: 2023-03-17-unidive-group-photo-small.jpg # Optional preview image (place in projects/ or root)
 draft: false # Set to true to hide from listing
 # Add link to repo/demo in the body or here:
-project-links:
-    - name: Gitlab
-    - url: https://gitlab.com/parseme
+code-links:
+    - text: PARSEME
+      href: https://gitlab.com/parseme/
 ---
 
 ![](2023-03-17-unidive-group-photo-small.jpg){width="100%"}

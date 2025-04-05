@@ -1,13 +1,57 @@
 ---
 title: "Contact"
+format:
+  html:
+    theme: cosmo
 ---
 
 ## Get In Touch
 
-The best way to reach me is via email or LinkedIn:
+I'm always interested in discussing research, potential collaborations, or interesting opportunities. The best way to reach me is via LinkedIn or X:
 
-*   **Email:** [your.email@example.com](mailto:your.email@example.com)
-*   **LinkedIn:** [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
-*   **GitHub:** [github.com/yourusername](https://github.com/yourusername)
+*   **LinkedIn:** [van-tuan-bui](https://www.linkedin.com/in/van-tuan-bui)
+*   **Twitter X:** [bvttuan](https://x.com/bvttuan)
+*   **GitHub:** [bvantuan](https://github.com/bvantuan)
 
 <!-- You could also embed a contact form using a service like Formspree -->
+
+Please feel free to send me a message using the form below.
+
+## Send me a message:
+
+<!-- START FORM -->
+<!-- IMPORTANT: Replace YOUR_UNIQUE_CODE with your actual Formspree endpoint code -->
+
+```{=html}
+<form action="https://formspree.io/f/xpwpyekz" method="POST">
+
+  <div class="mb-3">
+    <label for="contact-name" class="form-label">Your Name:</label>
+    <input type="text" class="form-control" id="contact-name" name="name" required>
+  </div>
+
+  <div class="mb-3">
+    <label for="contact-email" class="form-label">Your Email:</label>
+    <input type="email" class="form-control" id="contact-email" name="_replyto" required>
+    <!-- Using name="_replyto" tells Formspree to use this as the Reply-To address -->
+  </div>
+
+  <div class="mb-3">
+    <label for="contact-subject" class="form-label">Subject:</label>
+    <input type="text" class="form-control" id="contact-subject" name="_subject">
+    <!-- Optional: _subject sets the email subject line Formspree sends you -->
+  </div>
+
+  <div class="mb-3">
+    <label for="contact-message" class="form-label">Message:</label>
+    <textarea class="form-control" id="contact-message" name="message" rows="5" required></textarea>
+  </div>
+
+  <!-- Optional: Honeypot field for basic spam prevention -->
+  <input type="text" name="_gotcha" style="display:none">
+
+  <button type="submit" class="btn btn-primary">Send Message</button>
+
+</form>
+<!-- END FORM -->
+```

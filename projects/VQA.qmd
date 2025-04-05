@@ -1,0 +1,80 @@
+---
+title: "Visual Question Answering (VQA)"
+description: "This is my end of studies' project about Visual Question Answering [(VQA)](https://visualqa.org/) 
+as a student in the Information Technology and Cybersecurity Department at [INSA CVL](https://insa-centrevaldeloire.fr/). 
+The project implements a novel co-attention model presented by @lu2016hierarchical in [Keras/Tensorflow](https://www.tensorflow.org/)."
+author: "Van Tuan Bui"
+date: "2025-04-03" # Date of last significant update or creation
+categories: [Computer Vision, LSTM, CNN] # Optional tags
+image: co-attention_model.png # Optional preview image (place in projects/ or root)
+draft: false # Set to true to hide from listing
+# Add link to repo/demo in the body or here:
+code-links:
+    - text: VQA
+      href: https://github.com/bvantuan/VQA
+---
+
+![](co-attention_model.png){width="100%"}
+*sourced from @lu2016hierarchical.*
+
+# Overview
+To correctly answer visual questions about an image, the machine needs to understand both the image and question. A model that can 
+jointly reasons about image and question attention could improve the state-of-the-art on the VQA problem. So I decided to study the paper and experienced
+this novel mechanism by myself. In this repository only parallel co-attention mechanism which generates
+image and question attention simultaneously is implemented.
+
+# Architecture
+* STEP 1: Extract image features from a pre-trained CNN (VGG19 is used here).
+![VGG architecture](VGG.jpg)
+* STEP 2: Compute word embedding, phrase embedding and question embedding
+* STEP 3: Calculate co-attended image and question features from all three levels (word, phrase, question)
+* STEP 4: Use a multi-layer perceptron (MLP) to recursively encode the attention features
+
+# Dataset
+I evaluate the proposed model on the [VQA 2 dataset](https://visualqa.org/download.html). 
+The dataset contains 443 757 training questions, 214 354 validation questions, 447 793 testing questions, 
+and a total of 6 581 110 question-answers pairs. There are three sub-categories according to answer-types including 
+yes/no, number, and other. Each question has 10 free-response answers. The paper uses the top 1000 most frequent answers as the possible outputs. 
+This set of answers covers 87.36% of the train+val answers. For testing, I train the model on VQA train+val and 
+report the test-dev and test-standard results from the VQA evaluation server like in the paper. 
+
+# Results
+
+```{=html}
+<table>
+  <tr>
+    <th> Model </th>
+    <th> Yes/No </th>
+    <th> Number </th>
+	<th> Other  </th>
+	<th> All </th>
+  </tr>
+  <tr>
+    <td> VGG </td>
+    <td> 66.61 </td>
+    <td> 31.39 </td>
+	<td> 33.74 </td>
+	<td> 47.02 </td>
+  </tr>
+  <tr>
+    <td> ResNet </td>
+    <td> 69.08 </td>
+    <td> 34.58 </td>
+	<td> 38.45 </td>
+	<td> 50.73 </td>
+  </tr>
+</table>
+```
+\
+
+Some prediction answers on the test-standard: \
+![Example 1](example1.png) \
+![Example 2](example2.png) \
+![Example 3](example3.png) \
+
+
+# References
+
+<!-- This div tells Quarto where to render the bibliography for this page -->
+::: {#refs}
+:::

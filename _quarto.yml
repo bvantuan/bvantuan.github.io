@@ -11,7 +11,7 @@ website:
     background: light
     back-to-top-navigation: true
     # Pushes nav items to the right (optional, remove 'right:' for left alignment)
-    right:
+    left:
       - href: index.qmd # Link to home page file
         text: Home     # Text displayed in the navbar
       - href: about.qmd
@@ -26,11 +26,14 @@ website:
         text: Blog
       - href: contact.qmd
         text: Contact
+    right:
       # Optional: Add icons (requires FontAwesome or Bootstrap Icons)
-      # - icon: github
-      #   href: https://github.com/yourusername
-      # - icon: twitter
-      #   href: https://twitter.com/yourusername
+      - icon: linkedin
+        href: https://www.linkedin.com/in/van-tuan-bui
+      - icon: twitter-x
+        href: https://x.com/bvttuan
+      - icon: github
+        href: https://github.com/bvantuan
     
 
   # Footer configuration
@@ -41,10 +44,13 @@ website:
       # - text: "Back to top"
       #   href: "#top"
     left: 
+      # Optional: Add icons (requires FontAwesome or Bootstrap Icons)
+      - icon: linkedin
+        href: https://www.linkedin.com/in/van-tuan-bui
+      - icon: twitter-x
+        href: https://x.com/bvttuan
       - icon: github
-        href: https://github.com/
-      - icon: twitter 
-        href: https://twitter.com/
+        href: https://github.com/bvantuan
 
 # Default HTML format options (applies to all pages unless overridden)
 format:
